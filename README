@@ -4,9 +4,8 @@ To run the example, follow these steps:
 1) Clone this repository into a folder in your CoppeliaSim root directory.
 2) Open the scene example.ttt in CoppeliaSim
 3) In CoppeliaSim, click the checkbox "Add-ons --> R0remoteApiServer". At the bottom of the screen, the following message should appear: "Started add-on script b0RemoteApiServer"
-4) Use command line to enter the folder and run the "test.py" script. The test script starts the simulation and prints out the joint angle of the robot base joint to your command line, and stops the simulation again.
-In CoppeliaSim, you should nowdir
- see that the robot is moving for a short time. In the command line, you should see the following output:
+4) Use command line to enter the folder and run the "test.py" script. The test script starts the simulation and prints out the joint angle of the robot base joint to your command line until you terminate it with Ctrl+C.
+In CoppeliaSim, you should now see that the robot is moving for a short time. In the command line, you should see the following output:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
